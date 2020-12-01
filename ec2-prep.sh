@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install Python3
-sudo yum -y install python36
+sudo yum -y install python3
 # Install PIP3
 curl -O https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py --user
