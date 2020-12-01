@@ -9,10 +9,10 @@ from email.mime.text import MIMEText
 from datetime import date
 from time import strftime
 
-import requests  # abhi added
-import requests_cache # abhi added
+#import requests  # abhi added
+#import requests_cache # abhi added
 
-requests_cache.install_cache('demo_cache')  # abhi added
+#requests_cache.install_cache('demo_cache')  # abhi added
 
 class spotify_cred(luigi.Config):
     user = luigi.Parameter()
